@@ -1,0 +1,444 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(180deg,#000 130px,#2e2e2e 300px,#000 1000px);
+}
+
+header {
+    background-color: black;
+}
+
+.logo img{
+    margin-top: 1%;
+}
+
+header h1{
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+header h3{
+    color: white;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 50;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+
+p{
+    color: white;
+    display: block;
+}
+
+nav{
+    background-color: #1a1a1a;
+    padding: 0.1px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a.activo {
+    color: #00ccff;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #000000;
+    clear: both;
+    color: white;
+    padding: 1em 0;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.holder{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container h2 {
+    position: absolute;
+    top: 40%; 
+    left: 12.4%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: #333;
+    font: inherit;
+    font-family: "Daimler CS Regular";
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.125rem;
+    line-height: 2.25rem;
+}
+
+.image-container h5{
+    position: absolute;
+    top: 5%; 
+    left: 11%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px;
+    color: #333;
+}
+
+.image-container h6{
+    position: absolute;
+    top: 40%; 
+    left: 18%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px; 
+    color: #333;
+}
+
+h5{
+    font: inherit;
+    font-family: "MBCorpo Title","DaimlerCAC-Regular",serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+h6{
+    font: inherit;
+    font-family: "MBCorpo Title","DaimlerCAC-Regular",serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+h2{
+    color: white;
+    font-weight: 800;
+    margin: 0 0 1em;
+}
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.homeimg{
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+
+.content1, .content2{
+    flex-basis: calc(40.33% - 20px);
+    background-color: rgba(37, 36, 36, 0.5);
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.content1{
+    margin-top: 4em;
+}
+
+.content2{
+    margin-bottom: 5em;
+}
+
+.imagen{
+    flex: 1;
+}
+
+.text{
+    flex: 1;
+}
+
+.content1 .imagen{
+    order: 1;
+}
+
+.content2 .imagen{
+    order: 2;
+}
+
+.content1 i{
+    margin-left: 5%;
+}
+
+
+
+.personas{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.persona{
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    width: calc(25% - 20px); 
+    margin: 10px; 
+    text-align: center;
+    transition: transform 0.3s; 
+}
+
+.persona{
+    text-align: center;
+}
+
+.persona img{
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0.8em 0 1em;
+    max-width: 100%;   
+}
+
+.persona h5,
+.persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 1.2em;
+}
+
+.persona h6{
+    font-size: 1em;
+    color: #978989;
+    margin: 0 1em 1em;
+}
+
+.persona:first-child{
+    margin-left: 0;
+}
+
+.staff{
+    flex-wrap: nowrap;
+}
+
+.gerentes h2{
+    margin-top: 5%;
+}
+
+.persona:hover {
+    transform: scale(1.1);
+}
+
+
+
+ul li{
+    color: white;
+}
+
+.servicio{
+    border: 5px solid gray;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.servicio h4{
+    color: white;
+    font-size: 2em;
+    margin-left: 40px;
+}
+
+.servicio .info{
+    width: 50%;
+}
+
+.servicio .info p{
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-left: 1em;
+    
+}
+
+.servicio img{
+    border-radius: 0.8em;
+    width: 50%;
+}
+
+.servicio:nth-child(even) img{ 
+    float: right;
+}
+
+.servicio:nth-child(even) .info{
+    float: left;
+}
+
+.servicio:nth-child(odd) img{ 
+    float: left;
+
+}
+
+.servicio:nth-child(odd) .info{
+    float: right;
+}
+
+
+
+.contenedor {
+    text-align: center;
+}
+
+.contenedor i{
+    margin-right: 1%;
+}
+
+.contenedor h2 {
+    font-size: 24px;
+    margin-left: -800px;
+    margin-top: 30px;
+}
+
+h2[data-title="eMobility"] {
+    color: #00adef;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.imagen:hover {
+    transform: scale(1.2);
+}
+
+.imagen {
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.imagen img {
+    width: 250px;
+    height: 200px;
+    border-top: 2px solid #333; 
+}
+
+.imagen h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.10rem;
+    line-height: 1.75rem;
+    color: white;
+}
+
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna.left{
+    border-right: 1px solid gray;
+}
+
+.columna.left h2{
+    margin-top: 1em;
+}
+
+.columna.right p{
+    font-size: 0.9em;
+}
+
+.columna.right h2{
+    margin-top: 1em;
+}
+
+.columna.right ul li{
+    font-size: 0.8em;
+    color: white;
+}
+
+.columna.right label{
+    color: white;
+}
+
+.formulario laber{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones{
+    text-align: center;
+}
